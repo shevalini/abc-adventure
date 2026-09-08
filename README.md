@@ -138,7 +138,7 @@ Completion Modal → Next Letter
 
 ## 🌟 Gamification
 
-
+Each letter offers up to **3 stars**:
 
 | Action | Stars |
 |---|---|
