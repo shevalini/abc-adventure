@@ -263,3 +263,6 @@ export function useSpeech() {
 
 // Timeout cleanup: clears active sequence timers before new speech.
 
+
+// Speech rates: Slow (0.62), Extra Slow (0.50), Normal (0.82).
+
