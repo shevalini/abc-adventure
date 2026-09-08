@@ -275,3 +275,6 @@ export default function TracingCanvas({ letter, onDone, color }) {
 
 // Canvas aspect ratio: 1/1 square container with responsive touchAction.
 
+
+// Tracing score threshold: coverage scoring evaluated upon Done.
+
