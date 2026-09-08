@@ -10,8 +10,11 @@ export default function PronunciationButton({
   bg = '#eef2ff',
   size = 'md',
   rate,
+  isPhonic = false,
+  isWord = false,
+  className = '',
 }) {
-  const { speak, supported } = useSpeech();
+  const { speak, speakPhonic, speakWord, supported } = useSpeech();
   const [playing, setPlaying] = useState(false);
 
   if (!supported) {
@@ -26,13 +29,19 @@ export default function PronunciationButton({
     );
   }
 
-  const handleSpeak = () => {
+  const handleSpeak = async () => {
     setPlaying(true);
-    speak(text, {
-      rate,
-      onEnd: () => setPlaying(false),
-      onError: () => setPlaying(false),
-    });
+    try {
+      if (isPhonic) {
+        await speakPhonic(text, { rate });
+      } else if (isWord) {
+        await speakWord(text, { rate });
+      } else {
+        await speak(text, { rate });
+      }
+    } finally {
+      setPlaying(false);
+    }
   };
 
   const sizeClasses =
@@ -49,7 +58,7 @@ export default function PronunciationButton({
                   transition-all duration-150 active:scale-95 hover:brightness-95
                   focus-visible:outline-2 focus-visible:outline-offset-2 ${
                     playing ? 'ring-4 ring-offset-1 animate-pulse' : ''
-                  }`}
+                  } ${className}`}
       style={{ background: bg, color, outlineColor: color }}
       aria-label={label || `Hear ${text}`}
     >
