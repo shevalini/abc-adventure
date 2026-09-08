@@ -281,3 +281,6 @@ export default function LetterLearningPage({ progressApi }) {
 
 // Learning sections: Learn, Listen, Trace, and Play.
 
+
+// Accessibility: aria-selected and role=tab on navigation items.
+
