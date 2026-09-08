@@ -99,3 +99,6 @@ export default function CompletionModal({ letter, onClose, nextLetter }) {
 
 // CompletionModal: triggers celebration when all 3 activities finish.
 
+
+// Modal dismiss: clean state reset upon Next Letter.
+
