@@ -209,3 +209,6 @@ Made with ❤️ for young learners everywhere 🌍
 
 <!-- Commit 45: Keyboard navigation instructions -->
 
+
+<!-- Commit 49: Troubleshooting guide -->
+
