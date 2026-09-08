@@ -197,3 +197,6 @@ Made with ❤️ for young learners everywhere 🌍
 
 <!-- Commit 22: Recommended speech voices configuration -->
 
+
+<!-- Commit 26: Project architecture overview -->
+
