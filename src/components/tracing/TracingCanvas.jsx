@@ -266,3 +266,6 @@ export default function TracingCanvas({ letter, onDone, color }) {
     </div>
   );
 }
+
+// Canvas touch coordinate handling: normalized for HiDPI/Retina screens.
+
