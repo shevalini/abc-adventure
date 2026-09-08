@@ -206,3 +206,6 @@ Made with ❤️ for young learners everywhere 🌍
 
 <!-- Commit 39: Handwriting tracing algorithm documentation -->
 
+
+<!-- Commit 45: Keyboard navigation instructions -->
+
