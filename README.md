@@ -186,29 +186,5 @@ MIT — free to use, modify, and distribute.
 
 Made with ❤️ for young learners everywhere 🌍
 
-<!-- Commit 01: Documentation update -->
-
-
-<!-- Commit 11: Browser speech compatibility documented -->
-
-
-<!-- Commit 16: Accessibility guidelines -->
-
-
-<!-- Commit 22: Recommended speech voices configuration -->
-
-
-<!-- Commit 26: Project architecture overview -->
-
-
-<!-- Commit 33: LocalStorage schema documentation -->
-
-
-<!-- Commit 39: Handwriting tracing algorithm documentation -->
-
-
-<!-- Commit 45: Keyboard navigation instructions -->
-
-
 <!-- Commit 49: Troubleshooting guide -->
 
