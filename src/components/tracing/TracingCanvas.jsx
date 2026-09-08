@@ -272,3 +272,6 @@ export default function TracingCanvas({ letter, onDone, color }) {
 
 // Tracing brush: round cap and round join for smoother strokes.
 
+
+// Canvas aspect ratio: 1/1 square container with responsive touchAction.
+
