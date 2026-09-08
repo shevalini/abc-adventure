@@ -69,3 +69,6 @@ export default function NavigationControls({ prevLetter, nextLetter }) {
 
 // Navigation: Prev, Home, and Next actions.
 
+
+// Adjacent letters: checks array boundaries cleanly.
+
