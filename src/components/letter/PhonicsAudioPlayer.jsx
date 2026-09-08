@@ -226,3 +226,6 @@ export default function PhonicsAudioPlayer({ letter, showTeacherMode = true }) {
 
 // PhonicsAudioPlayer: clean sound, word, and teacher mode controls.
 
+
+// Teacher mode: 3-step sequence Letter -> Sound -> Word.
+
