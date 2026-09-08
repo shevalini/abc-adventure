@@ -180,6 +180,9 @@ Progress persists in `localStorage` so children can return anytime.
 ---
 
 ## 📄 License
+
+MIT — free to use, modify, and distribute.
+
 ---
 
 Made with ❤️ for young learners everywhere 🌍
