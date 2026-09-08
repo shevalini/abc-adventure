@@ -96,3 +96,6 @@ export default function CompletionModal({ letter, onClose, nextLetter }) {
     </div>
   );
 }
+
+// CompletionModal: triggers celebration when all 3 activities finish.
+
