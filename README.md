@@ -203,3 +203,6 @@ Made with ❤️ for young learners everywhere 🌍
 
 <!-- Commit 33: LocalStorage schema documentation -->
 
+
+<!-- Commit 39: Handwriting tracing algorithm documentation -->
+
