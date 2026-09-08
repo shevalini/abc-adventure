@@ -188,3 +188,6 @@ Made with ❤️ for young learners everywhere 🌍
 
 <!-- Commit 01: Documentation update -->
 
+
+<!-- Commit 11: Browser speech compatibility documented -->
+
