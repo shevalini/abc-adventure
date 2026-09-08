@@ -254,3 +254,6 @@ export function useSpeech() {
 
 // Speech synthesis fallback: handled gracefully in all modern browsers.
 
+
+// Performance note: single utterance instance managed per speech cycle.
+
