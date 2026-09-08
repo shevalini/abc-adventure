@@ -257,3 +257,6 @@ export function useSpeech() {
 
 // Performance note: single utterance instance managed per speech cycle.
 
+
+// Teacher sequence timings: step 1 (600ms), step 2 (800ms).
+
