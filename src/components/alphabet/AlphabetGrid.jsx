@@ -67,3 +67,6 @@ export default function AlphabetGrid({ progressApi }) {
     </div>
   );
 }
+
+// AlphabetGrid: renders full A-Z letter cards.
+
