@@ -266,3 +266,6 @@ export function useSpeech() {
 
 // Speech rates: Slow (0.62), Extra Slow (0.50), Normal (0.82).
 
+
+// Speech API support guard: verified window.speechSynthesis availability.
+
