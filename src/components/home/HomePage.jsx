@@ -155,3 +155,6 @@ function CTAButton({ icon, label, subtitle, gradient, onClick, id }) {
 
 // Responsive typography: clamp-based hero title.
 
+
+// Home page: gentle gradients and kid-friendly aesthetic.
+
