@@ -181,3 +181,6 @@ export default function Activity({ letter, onComplete }) {
 
 // Mini-quiz: awards stars on correct completion.
 
+
+// Quiz feedback: reveals correct answer after wrong attempts.
+
