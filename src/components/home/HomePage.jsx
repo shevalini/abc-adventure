@@ -149,3 +149,6 @@ function CTAButton({ icon, label, subtitle, gradient, onClick, id }) {
     </button>
   );
 }
+
+// Semantic layout: hero, progress overview, and CTA sections separated.
+
