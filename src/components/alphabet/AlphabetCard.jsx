@@ -76,3 +76,6 @@ export default function AlphabetCard({ letter, letterProgress }) {
     </button>
   );
 }
+
+// Card elevation: subtle shadow with active tap scale feedback.
+
