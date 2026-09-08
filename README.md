@@ -191,3 +191,6 @@ Made with ❤️ for young learners everywhere 🌍
 
 <!-- Commit 11: Browser speech compatibility documented -->
 
+
+<!-- Commit 16: Accessibility guidelines -->
+
