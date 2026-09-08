@@ -31,7 +31,7 @@ A complete, polished, kid-friendly interactive English alphabet learning website
 ## 🖥️ Tech Stack
 
 | Technology | Purpose |
-|---|---|
+|---|---| 
 | **React 18** | UI component framework |
 | **Vite 5** | Fast build tool & dev server |
 | **Tailwind CSS 4** | Utility-first styling |
