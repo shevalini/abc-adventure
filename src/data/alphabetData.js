@@ -386,3 +386,6 @@ export const getAdjacentLetters = (id) => {
 
 // Alphabet data schema validated: 26 letters total.
 
+
+// Alphabet data: helper getLetterById and getAdjacentLetters exported.
+
