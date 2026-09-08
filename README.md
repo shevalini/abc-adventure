@@ -160,8 +160,6 @@ Progress persists in `localStorage` so children can return anytime.
 - Visible focus rings (WCAG 2.1 compliant)
 - `prefers-reduced-motion` support — all animations disabled when requested
 - Canvas has descriptive `aria-label` for screen readers
-- Color is never the only indicator of completion status
-
 ---
 
 ## 🔮 Future Improvements
