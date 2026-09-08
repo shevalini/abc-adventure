@@ -66,3 +66,6 @@ export default function NavigationControls({ prevLetter, nextLetter }) {
     </nav>
   );
 }
+
+// Navigation: Prev, Home, and Next actions.
+
