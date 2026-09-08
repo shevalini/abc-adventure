@@ -31,14 +31,14 @@ export default function Header({ totalStars = 0 }) {
         {/* Right side */}
         <div className="flex items-center gap-1.5 sm:gap-2.5">
           {/* Voice speed selector */}
-          {supported && (
+          {supported && speedConfig && (
             <button
               onClick={handleToggleSpeed}
-              title={`Voice speed: ${speedConfig.label}. Tap to change.`}
-              aria-label={`Voice speed: ${speedConfig.label}. Tap to change.`}
+              title={`Voice speed: ${speedConfig.label || 'Slow'}. Tap to change.`}
+              aria-label={`Voice speed: ${speedConfig.label || 'Slow'}. Tap to change.`}
               className="flex items-center gap-1 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 text-emerald-800 rounded-full px-2.5 sm:px-3 py-1 text-xs sm:text-sm font-bold transition-all active:scale-95 shadow-sm min-h-[34px] sm:min-h-[36px]"
             >
-              <span className="whitespace-nowrap">{speedConfig.shortLabel}</span>
+              <span className="whitespace-nowrap">{speedConfig.shortLabel || '🐢 Slow'}</span>
             </button>
           )}
 
