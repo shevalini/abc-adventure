@@ -24,7 +24,7 @@ A complete, polished, kid-friendly interactive English alphabet learning website
 - **Star Rewards** — Up to 3 stars per letter (Learn ⭐ + Trace ⭐ + Activity ⭐)
 - **Completion Modal** — Animated celebration when all stars are earned for a letter
 - **Responsive Design** — Works on desktop, tablet, and mobile
-- **Accessibility** — ARIA labels, keyboard navigation, visible focus states, reduced-motion support
+- **Accessibility** — ARIA labels, keyboard navigation, visible focus states, reduced-motion support...
 
 ---
 
