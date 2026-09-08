@@ -28,7 +28,7 @@ A complete, polished, kid-friendly interactive English alphabet learning website
 
 ---
 
-## 🖥️ Tech Stack
+## 🖥️ Tech Stackvvvvv
 
 | Technology | Purpose |
 |---|---|
