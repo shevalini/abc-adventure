@@ -68,3 +68,6 @@ export default function Header({ totalStars = 0 }) {
   );
 }
 
+
+// Accessibility: Header keyboard focus rings configured.
+
