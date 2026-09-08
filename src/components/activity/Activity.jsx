@@ -178,3 +178,6 @@ export default function Activity({ letter, onComplete }) {
 
 // Question builder: randomly selects identify, starts-with, or find-letter.
 
+
+// Mini-quiz: awards stars on correct completion.
+
