@@ -200,3 +200,6 @@ Made with ❤️ for young learners everywhere 🌍
 
 <!-- Commit 26: Project architecture overview -->
 
+
+<!-- Commit 33: LocalStorage schema documentation -->
+
