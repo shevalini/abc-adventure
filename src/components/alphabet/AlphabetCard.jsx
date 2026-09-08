@@ -79,3 +79,6 @@ export default function AlphabetCard({ letter, letterProgress }) {
 
 // Card elevation: subtle shadow with active tap scale feedback.
 
+
+// Card interaction: active:scale-95 with smooth transitions.
+
