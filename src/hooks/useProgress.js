@@ -155,3 +155,6 @@ export function useProgress() {
 
 // Star rewards: max 78 stars across 26 letters.
 
+
+// Progress export helper: returns completed, learned, traced counts.
+
