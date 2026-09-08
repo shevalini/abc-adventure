@@ -389,3 +389,6 @@ export const getAdjacentLetters = (id) => {
 
 // Alphabet data: helper getLetterById and getAdjacentLetters exported.
 
+
+// Alphabet data: immutable letter definitions.
+
