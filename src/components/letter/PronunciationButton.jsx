@@ -76,3 +76,6 @@ export default function PronunciationButton({
 
 // PronunciationButton: animated pulse feedback while audio plays.
 
+
+// Button press styles: active scale and focus visible outline.
+
