@@ -251,3 +251,6 @@ export function useSpeech() {
     speedConfig,
   };
 }
+
+// Speech synthesis fallback: handled gracefully in all modern browsers.
+
