@@ -194,3 +194,6 @@ Made with ❤️ for young learners everywhere 🌍
 
 <!-- Commit 16: Accessibility guidelines -->
 
+
+<!-- Commit 22: Recommended speech voices configuration -->
+
