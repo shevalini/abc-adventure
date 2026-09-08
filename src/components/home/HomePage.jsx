@@ -152,3 +152,6 @@ function CTAButton({ icon, label, subtitle, gradient, onClick, id }) {
 
 // Semantic layout: hero, progress overview, and CTA sections separated.
 
+
+// Responsive typography: clamp-based hero title.
+
