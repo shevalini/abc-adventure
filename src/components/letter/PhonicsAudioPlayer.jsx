@@ -223,3 +223,6 @@ export default function PhonicsAudioPlayer({ letter, showTeacherMode = true }) {
     </div>
   );
 }
+
+// PhonicsAudioPlayer: clean sound, word, and teacher mode controls.
+
