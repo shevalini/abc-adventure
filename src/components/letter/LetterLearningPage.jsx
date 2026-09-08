@@ -278,3 +278,6 @@ export default function LetterLearningPage({ progressApi }) {
     </div>
   );
 }
+
+// Learning sections: Learn, Listen, Trace, and Play.
+
