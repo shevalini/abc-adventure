@@ -152,3 +152,6 @@ export function useProgress() {
 
 // Progress API persistence: localStorage key 'abc_learning_progress'.
 
+
+// Star rewards: max 78 stars across 26 letters.
+
