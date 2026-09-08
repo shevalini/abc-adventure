@@ -149,3 +149,6 @@ export function useProgress() {
     totalStars: progress.totalStars,
   };
 }
+
+// Progress API persistence: localStorage key 'abc_learning_progress'.
+
