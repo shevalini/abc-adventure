@@ -260,3 +260,6 @@ export function useSpeech() {
 
 // Teacher sequence timings: step 1 (600ms), step 2 (800ms).
 
+
+// Timeout cleanup: clears active sequence timers before new speech.
+
