@@ -185,3 +185,6 @@ MIT — free to use, modify, and distribute.
 ---
 
 Made with ❤️ for young learners everywhere 🌍
+
+<!-- Commit 01: Documentation update -->
+
