@@ -1,6 +1,6 @@
 # ABC Adventure 🌟
 
-> **Learn • Listen • Trace • Play**
+> **Learn • Listen • Trace • Play**             
 
 A complete, polished, kid-friendly interactive English alphabet learning website for young children.
 
