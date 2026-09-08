@@ -24,39 +24,39 @@ export default function ProgressPage({ progressApi }) {
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
       <Header totalStars={totalStars} />
 
-      <main id="main-content" className="max-w-4xl mx-auto px-4 py-8">
+      <main id="main-content" className="max-w-4xl mx-auto px-3 sm:px-4 py-6 sm:py-8">
         {/* Back */}
         <button
           onClick={() => navigate('/')}
-          className="flex items-center gap-1 text-indigo-500 hover:text-indigo-700 font-semibold mb-6 transition-colors focus-visible:outline-2 focus-visible:outline-indigo-400 rounded"
+          className="flex items-center gap-1 text-indigo-500 hover:text-indigo-700 font-semibold mb-4 sm:mb-6 transition-colors focus-visible:outline-2 focus-visible:outline-indigo-400 rounded"
         >
           <ChevronLeft className="w-5 h-5" /> Back to Home
         </button>
 
-        <h1 className="font-display text-5xl text-indigo-600 mb-2 text-center">My Progress</h1>
-        <p className="text-center text-gray-400 mb-8">Keep it up, superstar! 🌟</p>
+        <h1 className="font-display text-3xl sm:text-5xl text-indigo-600 mb-1 sm:mb-2 text-center">My Progress</h1>
+        <p className="text-center text-gray-400 mb-6 sm:mb-8 text-sm sm:text-base">Keep it up, superstar! 🌟</p>
 
         {/* Stars summary */}
-        <div className="bg-white rounded-3xl p-6 shadow-md mb-6 text-center animate-fade-in-up">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-md mb-6 text-center animate-fade-in-up">
           <div className="flex justify-center gap-1 mb-3 flex-wrap">
             {Array.from({ length: Math.min(totalStars, 30) }).map((_, i) => (
               <Star
                 key={i}
-                className="w-6 h-6 fill-yellow-400 text-yellow-400 animate-star-pop"
+                className="w-5 h-5 sm:w-6 sm:h-6 fill-yellow-400 text-yellow-400 animate-star-pop"
                 style={{ animationDelay: `${i * 40}ms` }}
               />
             ))}
             {totalStars > 30 && (
-              <span className="text-yellow-500 font-bold">+{totalStars - 30} more!</span>
+              <span className="text-yellow-500 font-bold text-sm sm:text-base">+{totalStars - 30} more!</span>
             )}
           </div>
-          <p className="font-display text-4xl text-yellow-500">{totalStars} Stars Earned!</p>
-          <p className="text-gray-400 text-sm mt-1">Max possible: {26 * 3} stars</p>
+          <p className="font-display text-3xl sm:text-4xl text-yellow-500">{totalStars} Stars Earned!</p>
+          <p className="text-gray-400 text-xs sm:text-sm mt-1">Max possible: {26 * 3} stars</p>
         </div>
 
         {/* Progress bars */}
-        <div className="bg-white rounded-3xl p-6 shadow-md mb-6 flex flex-col gap-4 animate-fade-in-up">
-          <h2 className="font-display text-2xl text-gray-700">Learning Overview</h2>
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-md mb-6 flex flex-col gap-4 animate-fade-in-up">
+          <h2 className="font-display text-xl sm:text-2xl text-gray-700">Learning Overview</h2>
           <ProgressBar value={completedLetters} max={26} label="Letters Completed" color="#6366f1" />
           <ProgressBar value={learnedCount}   max={26} label="Letters Learned"   color="#8b5cf6" />
           <ProgressBar value={tracedCount}    max={26} label="Letters Traced"    color="#ec4899" />
@@ -64,8 +64,8 @@ export default function ProgressPage({ progressApi }) {
         </div>
 
         {/* Per-letter grid */}
-        <div className="bg-white rounded-3xl p-6 shadow-md mb-6 animate-fade-in-up">
-          <h2 className="font-display text-2xl text-gray-700 mb-4">Letter-by-Letter</h2>
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-md mb-6 animate-fade-in-up">
+          <h2 className="font-display text-xl sm:text-2xl text-gray-700 mb-4">Letter-by-Letter</h2>
           <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2">
             {alphabetData.map((letter) => {
               const lp = getLetterProgress(letter.id);

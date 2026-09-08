@@ -185,11 +185,11 @@ export default function TracingCanvas({ letter, onDone, color }) {
       </p>
 
       {/* Canvas */}
-      <div className="relative w-full max-w-sm rounded-3xl overflow-hidden shadow-lg border-4 border-indigo-100 bg-white">
+      <div className="relative w-full max-w-sm rounded-3xl overflow-hidden shadow-lg border-4 border-indigo-100 bg-white touch-none">
         <canvas
           ref={canvasRef}
-          className="w-full"
-          style={{ aspectRatio: '1 / 1', cursor: 'crosshair', display: 'block' }}
+          className="w-full touch-none select-none"
+          style={{ aspectRatio: '1 / 1', cursor: 'crosshair', display: 'block', touchAction: 'none' }}
           onMouseDown={startDraw}
           onMouseMove={draw}
           onMouseUp={endDraw}

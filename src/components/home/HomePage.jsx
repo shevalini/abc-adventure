@@ -14,23 +14,23 @@ export default function HomePage({ progressApi }) {
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
       <Header totalStars={totalStars} />
 
-      <main id="main-content" className="max-w-5xl mx-auto px-4 py-8">
+      <main id="main-content" className="max-w-5xl mx-auto px-3 sm:px-4 py-6 sm:py-8">
 
         {/* ── Hero ─────────────────────────────────────────────── */}
-        <section className="text-center mb-12 animate-fade-in-up">
+        <section className="text-center mb-8 sm:mb-12 animate-fade-in-up">
           {/* Big animated emoji */}
-          <div className="text-8xl mb-4 animate-float select-none" aria-hidden="true">
+          <div className="text-6xl sm:text-8xl mb-3 sm:mb-4 animate-float select-none" aria-hidden="true">
             🌟
           </div>
 
-          <h1 className="font-display text-6xl md:text-7xl text-shimmer mb-3 leading-tight">
+          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl text-shimmer mb-2 sm:mb-3 leading-tight">
             ABC Adventure
           </h1>
 
-          <p className="text-xl md:text-2xl text-indigo-500 font-semibold mb-2 font-body">
+          <p className="text-lg sm:text-xl md:text-2xl text-indigo-500 font-semibold mb-2 font-body">
             Learn • Listen • Trace • Play
           </p>
-          <p className="text-gray-500 text-base md:text-lg max-w-md mx-auto">
+          <p className="text-gray-500 text-sm sm:text-base md:text-lg max-w-md mx-auto">
             Discover all 26 letters of the English alphabet through fun, interactive lessons!
           </p>
         </section>
