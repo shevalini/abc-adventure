@@ -175,3 +175,6 @@ export default function Activity({ letter, onComplete }) {
     </div>
   );
 }
+
+// Question builder: randomly selects identify, starts-with, or find-letter.
+
