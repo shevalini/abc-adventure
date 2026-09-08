@@ -281,3 +281,6 @@ export default function TracingCanvas({ letter, onDone, color }) {
 
 // Guide canvas: off-screen reference buffer for pixel sampling.
 
+
+// Touch event normalization: preventDefault ensures zero page scrolling.
+
