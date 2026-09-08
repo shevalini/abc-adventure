@@ -47,9 +47,6 @@ A complete, polished, kid-friendly interactive English alphabet learning website
 
 ### Prerequisites
 
-- Node.js 18+
-- npm 9+
-
 ### Installation
 
 ```bash
