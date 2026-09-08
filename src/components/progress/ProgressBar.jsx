@@ -24,3 +24,6 @@ export default function ProgressBar({ value, max, color = '#6366f1', label }) {
     </div>
   );
 }
+
+// ProgressBar: animated progress fill bar.
+
