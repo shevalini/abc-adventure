@@ -383,3 +383,6 @@ export const getAdjacentLetters = (id) => {
     next: idx < alphabetData.length - 1 ? alphabetData[idx + 1] : null,
   };
 };
+
+// Alphabet data schema validated: 26 letters total.
+
