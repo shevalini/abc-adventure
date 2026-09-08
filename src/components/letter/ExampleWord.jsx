@@ -16,7 +16,7 @@ export default function ExampleWord({ letter }) {
       {/* Word and phonic label */}
       <div>
         <p className="text-xs sm:text-sm font-bold uppercase tracking-wider text-gray-500 mb-1">
-          Example Word • Phonics {letter.phonicDisplay}
+          Example Word
         </p>
         <p
           className="font-display text-4xl sm:text-5xl"
