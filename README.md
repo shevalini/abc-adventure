@@ -32,7 +32,7 @@ A complete, polished, kid-friendly interactive English alphabet learning website
 
 | Technology | Purpose |
 |---|---| 
-| **React 18** | UI component framework |
+| **React 18** | UI component framework jfnskjejijg|
 | **Vite 5** | Fast build tool & dev server |
 | **Tailwind CSS 4** | Utility-first styling |
 | **React Router v6** | Client-side routing |
