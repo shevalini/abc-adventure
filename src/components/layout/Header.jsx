@@ -1,11 +1,17 @@
 // src/components/layout/Header.jsx
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Home, Star } from 'lucide-react';
+import { useSpeech } from '../../hooks/useSpeech';
 
 export default function Header({ totalStars = 0 }) {
   const navigate = useNavigate();
   const location = useLocation();
   const isHome = location.pathname === '/';
+  const { speedConfig, cycleSpeed, speak, supported } = useSpeech();
+
+  const handleToggleSpeed = () => {
+    cycleSpeed();
+  };
 
   return (
     <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-sm shadow-sm">
@@ -23,7 +29,19 @@ export default function Header({ totalStars = 0 }) {
         </button>
 
         {/* Right side */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5">
+          {/* Voice speed selector */}
+          {supported && (
+            <button
+              onClick={handleToggleSpeed}
+              title={`Voice speed: ${speedConfig.label}. Click to change.`}
+              aria-label={`Voice speed: ${speedConfig.label}. Click to change.`}
+              className="flex items-center gap-1.5 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-800 rounded-full px-3 py-1 text-xs sm:text-sm font-semibold transition-all active:scale-95 shadow-sm"
+            >
+              <span>{speedConfig.shortLabel}</span>
+            </button>
+          )}
+
           {/* Stars badge */}
           <div
             className="flex items-center gap-1 bg-yellow-50 border border-yellow-200 rounded-full px-3 py-1"
@@ -49,3 +67,4 @@ export default function Header({ totalStars = 0 }) {
     </header>
   );
 }
+

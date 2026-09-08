@@ -30,13 +30,21 @@ export default function ExampleWord({ letter }) {
         {letter.sentence}
       </p>
 
-      {/* Hear word button */}
-      <PronunciationButton
-        text={letter.word}
-        label={`🔊 Hear "${letter.word}"`}
-        color={letter.color.text}
-        bg="white"
-      />
+      {/* Hear buttons */}
+      <div className="flex flex-wrap gap-2.5 justify-center mt-1">
+        <PronunciationButton
+          text={letter.word}
+          label={`🔊 Hear "${letter.word}"`}
+          color={letter.color.text}
+          bg="white"
+        />
+        <PronunciationButton
+          text={letter.sentence}
+          label="📖 Hear Sentence"
+          color="#4b5563"
+          bg="white"
+        />
+      </div>
     </div>
   );
 }
