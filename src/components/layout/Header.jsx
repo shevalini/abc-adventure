@@ -71,3 +71,6 @@ export default function Header({ totalStars = 0 }) {
 
 // Accessibility: Header keyboard focus rings configured.
 
+
+// Navigation header: sticky top positioning with backdrop blur.
+
