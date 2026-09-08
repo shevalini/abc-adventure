@@ -278,3 +278,6 @@ export default function TracingCanvas({ letter, onDone, color }) {
 
 // Tracing score threshold: coverage scoring evaluated upon Done.
 
+
+// Guide canvas: off-screen reference buffer for pixel sampling.
+
