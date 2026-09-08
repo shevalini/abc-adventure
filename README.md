@@ -13,7 +13,6 @@ A complete, polished, kid-friendly interactive English alphabet learning website
 
 ## ✨ Features
 
-- **A–Z Alphabet Learning** — All 26 letters with example words, sentences, and emoji illustrations
 - **Uppercase & Lowercase** — Both forms displayed prominently at all times
 - **Pronunciation** — Web Speech Synthesis API reads letter sounds and example words aloud
 - **Interactive Handwriting Tracing** — HTML5 Canvas with mouse, touch, and stylus support
