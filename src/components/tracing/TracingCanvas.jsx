@@ -269,3 +269,6 @@ export default function TracingCanvas({ letter, onDone, color }) {
 
 // Canvas touch coordinate handling: normalized for HiDPI/Retina screens.
 
+
+// Tracing brush: round cap and round join for smoother strokes.
+
