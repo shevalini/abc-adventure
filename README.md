@@ -27,7 +27,7 @@ A complete, polished, kid-friendly interactive English alphabet learning website
 - **Accessibility** — ARIA labels, keyboard navigation, visible focus states, reduced-motion support...
 ---
 
-## 🖥️ Tech Stack
+## 🖥️ Tech Stack:
 
 | Technology | Purpose |
 |---|---| 
