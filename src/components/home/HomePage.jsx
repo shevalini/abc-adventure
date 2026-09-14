@@ -1,5 +1,5 @@
 // src/components/home/HomePage.jsx
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 import { BookOpen, PenLine, BarChart3, Star } from 'lucide-react';
 import Header from '../layout/Header';
 import { alphabetData } from '../../data/alphabetData';
