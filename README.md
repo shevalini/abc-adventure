@@ -11,7 +11,7 @@ A complete, polished, kid-friendly interactive English alphabet learning website
 
 ---
 
-## ✨ Features
+## ✨ Features:
 
 
 - **A–Z Alphabet Learning** — All 26 letters with example words, sentences, and emoji illustrations
